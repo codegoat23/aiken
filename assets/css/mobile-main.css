@@ -1,0 +1,85 @@
+@media all and (max-width: 480px) {
+  body{
+    background: linear-gradient(rgb(186, 252, 4),rgb(172, 231, 10));
+    height: 1000vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+ .Navbar{
+    width: 97%;
+    margin-left: 3.5px;
+ }
+ .nav-links{
+  position: relative;
+ 
+ }
+ .hero-section{
+  margin-top: 10px;
+  text-align: center;
+ }
+ .magical{
+  font-stretch: extra-expanded;
+  font-weight: 1000;
+  font-size: 50px;
+  word-wrap: break-word;
+  text-align: center;
+ }
+ .hero-txt-sect button{
+  width: 75%;
+  margin-left: 50px;
+}
+.photo-grid{
+  background-size: 23rem;
+  height: 20rem;
+}
+.photo-grid img{
+  display: none;
+  visibility: hidden;
+}
+.drops-section{
+  margin-top: 20px;
+}
+.drops-head{
+  font-size: 45px;
+ }
+ .drops-designer{
+  font-size: 25px;
+  word-wrap: break-word;
+ }
+ .drops-main{
+  margin-top: 20px;
+  margin-left: 8px;
+  width: 95%;
+  height: 28rem;
+ }
+ .drops-col1{
+  gap: 15px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+ }
+ .drops-col2{
+  display: none;
+  visibility: hidden;
+ }
+ .drops-cap{
+  word-wrap: break-word;
+  font-size: 30px;
+ }
+ .drops-det{
+
+  margin-left: 20px;
+  text-align: center;
+  word-wrap: break-word;
+  width: 90%;
+ }
+ .main2 form{
+  width: 100%;
+
+  justify-content: center;
+ }
+ .main2 form{
+ 
+ }
+}

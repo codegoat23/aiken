@@ -1,0 +1,90 @@
+@media screen and (min-width: 1000px) {
+    body{
+        background: linear-gradient(rgb(186, 252, 4),rgb(172, 231, 10));
+        height: 1000vh;
+       
+    }
+    .Navbar{
+        width: 97%;
+        margin-left: 20px;
+    }
+    .hero-section{
+        margin-left: 70px;
+        width: 85%;
+        margin-top: 10px;
+        text-align: center;
+       }
+
+       .magical{
+        font-stretch: extra-expanded;
+        font-weight: 1000;
+        font-size: 72px;
+        word-wrap: break-word;
+        text-align: center;
+       }
+       .welcome{
+       margin-left: 220px;
+        width: 60%;
+        word-wrap: break-word;
+       }
+       .hero-txt-sect button{
+        width: 55%;
+        margin-left: 240px;
+       
+       }
+       .photo-grid{
+        
+       background: transparent;
+        height: 40rem;
+       width: 90%;
+       
+       }
+       .photo-grid img{
+        margin-left: 150px;
+        width: 85%;
+        height: 25rem;
+       }
+       .drops-section{
+        margin-top: -90px;
+        
+    }
+       .drops-head{
+        font-size: 45px;
+        font-family: Poppins-regular;
+        font-weight: 900;
+       }
+       .drops-designer{
+        font-family: Poppins-regular;
+        font-weight: 900;
+        font-size: 45px;
+       }
+       .drops-main{
+        margin-top: 50px;
+        margin-left: 120px;
+        width: 80%;
+        height: 33rem;
+        display: flex;
+        flex-direction: row;
+       }
+       .drops-col1{
+        margin-top: 70px;
+        text-align: left;
+        margin-left: 40px;
+        width: 45%;
+        height: 100%;
+       }
+       .drops-col2{
+        width: 48%;
+        height: 100%;
+       
+       }
+       .drops-cap{
+        font-weight: 500;
+        font-family: Poppins-regular;
+        word-wrap: break-word;
+        font-size: 36px;
+       }
+       .drops-det{
+        
+       }
+}
