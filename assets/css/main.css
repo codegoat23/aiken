@@ -4,6 +4,7 @@
 }
 body{
   font-family: Poppins-Regular;
+  background: linear-gradient(rgb(207, 255, 74),white)  ;
 }
 main{
     width: 100%;
@@ -71,7 +72,7 @@ li{
     margin-top: 20px;
 }
 .magical{
-    font-family: Poppins-Extrabold;
+   
 }
 .photo-grid{
     margin-top: 30px;
@@ -130,4 +131,85 @@ input[type=radio]{
     width: 20px;
     height: 20px;
     
+}
+.drops-minor{
+    display: flex;
+
+}
+.minor-col1,.minor-col2{
+    background: #292929;
+    border-radius: 15px;
+}
+.sect2{
+    background: white;
+    border: 2px solid transparent;
+}
+.people{
+    
+}
+.algorithm{
+    
+}
+.genarate-form{
+    
+}
+.genarate-form .form{
+   
+    background: rgb(207, 255, 74);
+    border-radius: 50px;
+}
+.journey-txt{
+    font-family: poppins-bold;
+    color: #292929;
+}
+.ask-txt{
+    font-family: poppins-bold;
+    color:rgb(67, 90, 5) ;
+}
+.generate-input{
+    display: flex;
+    flex-direction: row;
+}
+.generate-btn{
+    text-align: center;
+    font-family: Poppins-Regular;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    background: rgb(165, 84, 241);
+}
+.build-btn{
+    font-weight: 900;
+    text-align: center;
+    font-family: Poppins-Regular;
+    border: none;
+   display: flex;
+   flex-direction: row;
+    color: black;
+    background: rgb(207, 255, 74);
+}
+
+.build-btn img{
+    width: 12px;
+    height: 12px;
+    margin-top: 5px;
+}
+.test-sect{
+    gap: 20px;
+   
+    display: flex;
+    flex-direction: column;
+}
+.community{
+    background: rgb(243, 120, 120);
+}
+.unleash{
+    background: rgb(207, 255, 74);
+}
+.footer{
+    background: black;
+}
+.light-gray{
+    color: rgba(0, 0, 0, 0.432);
 }

@@ -6,8 +6,13 @@
     margin: 0;
     padding: 0;
   }
+  main{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
  .Navbar{
-    width: 97%;
+    max-width: 97%;
     margin-left: 3.5px;
  }
  .nav-links{
@@ -26,11 +31,12 @@
   text-align: center;
  }
  .hero-txt-sect button{
-  width: 75%;
+  max-width: 75%;
   margin-left: 50px;
 }
 .photo-grid{
-  background-size: 23rem;
+  background-size:100%;
+  width: 97%;
   height: 20rem;
 }
 .photo-grid img{
@@ -82,4 +88,169 @@
  .main2 form{
  
  }
+ .drops-minor{
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+ }
+ .minor-col1,.minor-col2{
+  margin-left: 10px;
+  width: 95%;
+  height: 20rem;
+ }
+ .people{
+  position: relative;
+ margin-top: 90px;
+  margin-left: 30px;
+  width: 95%;
+  height: 250vh;
+ }
+ .sect2{
+  border-radius: 50px;
+  margin-top: 100px;
+  margin-left: 15px;
+  width: 90%;
+  height: 450vh;
+  display: flex;
+  flex-direction: column;
+ }
+ .people-txt{
+  font-size:  28px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-left: 0;
+ }
+ .people-intro{
+ 
+  text-align: center;
+margin-right: 40px;
+
+ }
+ .test-sect{
+  gap: 50px;   
+  width: 95%;
+  height: 100%;
+ }
+ .test-rows{
+  display: flex;
+  flex-direction:column;
+ 
+  width: 100%;
+  height: 60%;
+ }
+ .reverse{
+  flex-direction: column-reverse;
+ }
+ .test-piccol img{
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 50%;
+  width: 80%;
+  height: 70%;
+ }
+ .descintro{
+  font-size: 25px;
+  margin-top: 160px;
+  font-weight: 600;
+}
+ .descb{
+  display: none;
+  visibility: hidden;
+ }
+ .algorithm{
+  margin-top: 60rem;
+  margin-left: 30px;
+  width: 92%;
+  height: 140vh;
+ }
+ .genarate-form{
+  margin-top: 200px;
+ 
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 40px;
+ }
+ .genarate-form .form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 70px;
+  width: 100%;
+  height: 90%;
+ }
+ .genarate-form .form span{
+  
+ margin-top: 50px;
+  font-size: 30px;
+ }
+ .form-txt{
+  margin-top: 50px;
+ }
+ .generate-input{
+  margin-top: 50px;
+ }
+ .generate-input input[type="text"]{
+
+ margin-left: 16px;
+  width: 20rem;
+  height: 60px;
+  border: none;
+  border-radius: 20px;
+ }
+ .generate-input input[type="text"]:focus{
+  border: none;
+ }
+  .generate-btn{
+    display: none;
+    visibility: hidden;
+  margin-top: 8px;
+  position: absolute;
+  margin-left: 250px;
+  height: 45px;
+  width: 130px;
+  font-size: 18px;
+  border-radius: 50px;
+ }
+ .build-btn{
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 18px;
+  gap: 10px;
+  border: none;
+  position: absolute;
+  width: 85px;
+  height: 45px;
+  margin-left: 15rem;
+  
+  font-family: Poppins-Regular;
+ }
+ .build-btn p{
+  margin-left: 10px;
+  margin-top: 10px;
+ }
+ .build-btn i{
+  font-size: 15px;
+  margin-top: 15px;
+ 
+ }
+ .algo-col2-row1{
+ display: none;
+ visibility: hidden;
+}
+.algo-col2-row2{
+  margin-top: 20px;
+  width: 90%;
+}
+.algo-col2-row2 span{
+  font-size: 20px;
+}
+.algo-col1{
+  display: none;
+  visibility: hidden;
+}
+.inno-txt{
+  font-size: 20px;
+}
 }

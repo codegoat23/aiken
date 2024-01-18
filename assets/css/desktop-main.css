@@ -1,7 +1,7 @@
 @media screen and (min-width: 1000px) {
     body{
-        background: linear-gradient(rgb(186, 252, 4),rgb(172, 231, 10));
-        height: 1000vh;
+        background: linear-gradient(rgb(207, 255, 74),#fff)  ;
+        max-height: 1000vh;
        
     }
     .Navbar{
@@ -87,4 +87,226 @@
        .drops-det{
         
        }
+       .drops-minor{
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 30px;
+        width: 96%;
+        margin-top: 25px;
+       margin-left: 40px;
+       }
+       .minor-col1,.minor-col2{
+       
+        position: relative;
+       
+        width:45%;
+        height: 20rem;
+       }
+       .minor-col1{
+        margin-left: 80px;
+       }
+       .minor-col2{
+        margin-right: 120px;
+       }
+       .sect2{
+        border-radius: 50px;
+        margin-top: 170px;
+        margin-left: 90px;
+        width: 85%;
+        height: 500vh;
+        display: flex;
+        flex-direction: column;
+       }
+       .people{
+        position: relative;
+       margin-top: 90px;
+        margin-left: 30px;
+        width: 95%;
+        height: 250vh;
+       }
+       .algorithm{
+        margin-top: 200px;
+        margin-left: 30px;
+        width: 95%;
+        height: 140vh;
+       }
+       .genarate-form{
+        margin-top: 130px;
+        margin-left: 30px;
+        width: 95%;
+        height: 90vh;
+        margin-bottom: 40px;
+       }
+       .genarate-form .form{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 70px;
+        width: 100%;
+        height: 80%;
+       }
+       .genarate-form .form span{
+        
+       margin-top: 50px;
+        font-size: 50px;
+       }
+       .form-txt{
+        margin-top: 50px;
+       }
+       .generate-input{
+        margin-top: 90px;
+       }
+       .generate-input input[type="text"]{
+
+        margin-left: 240px;
+        width: 34rem;
+        height: 60px;
+        border: none;
+        border-radius: 20px;
+       }
+       .generate-input input[type="text"]:focus{
+        border: none;
+       }
+        .generate-btn{
+        margin-top: 8px;
+        position: absolute;
+        margin-left: 250px;
+        height: 45px;
+        width: 130px;
+        font-size: 18px;
+        border-radius: 50px;
+       }
+       .build-btn{
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 8px;
+        font-size: 18px;
+        gap: 10px;
+        border: none;
+        position: absolute;
+        width: 85px;
+        height: 45px;
+        margin-left: 43rem;
+        
+        font-family: Poppins-Regular;
+       }
+       .build-btn p{
+        margin-left: 10px;
+        margin-top: 10px;
+       }
+       .build-btn i{
+        font-size: 15px;
+        margin-top: 15px;
+       
+       }
+       .algorithm-row{
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+        margin-top: 280px;
+           
+           width: 90%;
+           height: 70%;
+           gap: 30px;
+       }
+       .algo-col1{
+        background-position: center;
+        background-size: 100%;
+        border-radius: 25px;
+        background-repeat: no-repeat;
+        background-image: url('../img/dd5af8b487cffabbf00890749a575614.jpg');
+       width: 50%;
+       height: 100%;
+      
+    }
+    .algo-col2{
+       height: 100%;
+       width: 50%;
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+    }
+    .algo-col2-row1{
+        background-position: center;
+        background-size: 100%;
+        border-radius: 25px;
+        background-repeat: no-repeat;
+        background-image: url('../img/e64082fba704ad3b064306019ee92443.jpg');
+       width: 100%;
+       height: 50%;
+    }
+    .algo-col2-row2{
+        font-family: Poppins-bold;
+        font-size: 20px;
+        text-align: left;
+    }
+    .light-gray{
+        color: rgba(0, 0, 0, 0.432);
+    }
+       .inno-txt{
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 50px;
+        float: left;
+       }
+       .people-txt{
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 60px;
+       }
+       .people-intro{
+        margin-top: -10px;
+        text-align: center;
+      
+       }
+       .test-sect{
+       
+        width: 95%;
+        height: 95%;
+       }
+       .test-rows{
+        display: flex;
+        flex-direction: row;
+        
+        width: 100%;
+        height: 33%;
+       }
+       .test-piccol{
+        
+        height: 100%;
+        width: 40%;
+       }
+       .desctest{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        height: 100%;
+        width: 60%;
+       }
+      .test-piccol img{
+        margin-top: 70px;
+        margin-left: 40px;
+        width: 80%;
+        height: 70%;
+        border-radius: 50%;
+      }
+     .descb{
+        margin-top: 100px;
+        margin-left: 0;
+     } 
+     .descintro{
+       font-size: 35px;
+       margin-top: 160px;
+       font-weight: 600;
+     }
+     .descript{
+        font-size: 11px;
+     }
+     .footer{
+        width: 100%;
+        height: 75vh;
+        border-radius: 20px;
+        bottom: 0;
+     }
 }
